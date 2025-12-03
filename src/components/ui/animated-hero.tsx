@@ -30,7 +30,7 @@ const Hero = ({ scrollIntoDiv } : { scrollIntoDiv: () => void }) => {
                 variant="secondary"
                 size="sm"
                 className="gap-4 cursor-pointer"
-                onClick={() => window.open("/public/BONGHANOY, CRIS DYFORD (CV).pdf", "_blank")}
+                onClick={() => window.open("/download_cv.pdf", "_blank")}
                 >
                 View My Cv <FileText className="w-4 h-4" />
                 </Button>
