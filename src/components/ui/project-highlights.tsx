@@ -1,7 +1,6 @@
 "use client";
 import { useScroll, useTransform, motion, } from "motion/react";
 import { useEffect, useRef, useState } from "react";
-import { profile } from "@/assets";
 
 import type { HighlightsTimeline } from "@/interface/interface";
 

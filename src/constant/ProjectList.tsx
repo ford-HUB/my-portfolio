@@ -1,4 +1,4 @@
-import { profile, uclmcaresDashboard, uclmcaresInterestSelection, uclmcaresLandingPage } from "@/assets";
+import { uclmcaresDashboard, uclmcaresInterestSelection, uclmcaresLandingPage } from "@/assets";
 
 export const highlights_project_data = [
     {

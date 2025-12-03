@@ -34,12 +34,12 @@ const Home = () => {
             <motion.div
                 className={`header-container ${minimizeContent ? 'cursor-pointer': 'border bg-white/20 backdrop-blur-[2px]'} rounded-md p-4 fixed bottom-6 right-6 z-100 `}
                 initial={{ x: 0, y: 0, opacity: 0 }}
-                animate={{ x: 10, y: 0, opacity: 1 }}
+                animate={{ x: 15, y: 0, opacity: 1 }}
                 transition={{ duration: 1, ease: 'easeIn' }}>
                 <div className="header flex justify-between items-center space-x-8">
                     <div className="profile">
                         <img
-                            className={`${minimizeContent ? 'h-15 w-15 border border-gray-600 rounded-full': 'h-46 w-46 rounded-lg'} `}
+                            className={`${minimizeContent ? 'h-15 w-15 border border-gray-600 rounded-full': 'h-38 w-38 rounded-lg'} `}
                             src={profile}
                             alt="onedev photo"
                         />
@@ -86,7 +86,7 @@ const Home = () => {
                                     <Switch checked={toggleTheme} onCheckedChange={setToggleTheme} id="airplane-mode"/>
                                     <Label htmlFor="airplane-mode">Dark Mode</Label>
                                 </div>
-                                <div className='absolute top-34 right-0'>
+                                <div className='absolute top-30 right-0'>
                                     <Minimize 
                                     onClick={() => setMinimizeContent(true)}
                                     size={18}
@@ -100,7 +100,7 @@ const Home = () => {
 
             <motion.main
                 initial={{ x: 0, y: 0, opacity: 0 }}
-                animate={{ x: 0, y: -30, opacity: 1 }}
+                animate={{ x: 0, y: -25, opacity: 1 }}
                 transition={{ duration: 1, ease: 'easeIn' }}
                 className="flex-col justify-center">
                 <div className="mb-4">

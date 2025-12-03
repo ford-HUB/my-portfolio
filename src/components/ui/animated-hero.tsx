@@ -24,7 +24,7 @@ const Hero = ({ scrollIntoDiv } : { scrollIntoDiv: () => void }) => {
     return (
         <div className={`w-full ${theme === 'dark' ? 'bg-black': ''}`}>
         <div className="container mx-auto">
-            <div className="flex gap-8 py-13 lg:py-40 items-center justify-center flex-col">
+            <div className="flex gap-8 py-13 lg:py-30 items-center justify-center flex-col">
             <div>
                 <Button
                 variant="secondary"
